@@ -5,7 +5,7 @@ This is done by letting clients `GET` a [JSON list of servers](https://github.co
 
 You may want to add your server to this list. The steps for getting this done are as follows:
 
-1. **Ensure your server is properly moderated.** For the most part, this applies to survival servers, but PvP servers can be affected as well.
+1. **Ensure your server sis properly moderated.** For the most part, this applies to survival servers, but PvP servers can be affected as well.
 You'll need to either hire some moderators, or make use of (currently non-existent) anti-grief and anti-curse plugins.
 *Consider enabling a rate limit:* `config messageRateLimit 2` will make it so that players can only send messages every 2 seconds, for example.
 2. Make sure that your server is able to handle inappropriate content - this includes NSFW display/sorter art and abusive messages. **Servers that allow such content will be removed immediately.** Consider banning display blocks if it is a problem for your server: `rules add bannedBlocks ["logic-display", "large-logic-display"]`.
