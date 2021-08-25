@@ -571,7 +571,7 @@ public class Blocks implements ContentList{
             requirements(Category.crafting, with(Items.silicon, 130, Items.lead, 120, Items.thorium, 75));
             craftEffect = Fx.smeltsmoke;
             outputItem = new ItemStack(Items.phaseFabric, 1);
-            craftTime = 120f;
+            craftTime = 80f;
             size = 2;
             hasPower = true;
             drawer = new DrawWeave();
